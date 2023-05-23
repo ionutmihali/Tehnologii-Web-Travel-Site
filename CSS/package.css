@@ -1,0 +1,79 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.card .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.card .caption {
+    display: flex;
+    justify-content: space-between;
+    justify-items: normal;
+}
+
+.card .caption>div {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.card .caption>div:last-child {
+    text-align: right;
+    width: 150px;
+}
+
+.card .caption .name {
+    font-size: 18px;
+    margin: 0 0 5px;
+    color: var(--dark-blue);
+}
+
+.card .descriere3 {
+    color: #666;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.card .descriere2 {
+    color: #999;
+    font-size: 14px;
+    margin: 0 0 5px;
+    text-decoration: line-through black;
+}
+
+.card .descriere {
+    color: var(--dark-bg);
+    font-size: 16px;
+    margin: 0 0 5px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.but a {
+    background-color: var(--dark-blue);
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    width: 150px;
+}
+
+.but a:hover {
+    background-color: var(--main-color);
+}

@@ -1,0 +1,7 @@
+let menus = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.header .navbar');
+
+menus.onclick = () => {
+    menus.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+};

@@ -1,0 +1,22 @@
+.search-form {
+  display: flex;
+  background-color: #fff;
+  height: 40px;
+  width: 220px;
+  padding: 0 16px;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  font-size: 16px;
+  max-width: 100%;
+}
+
+.search-label {
+  font-size: 16px;
+}
+
+.search-button {
+  padding-left: 10px;
+}

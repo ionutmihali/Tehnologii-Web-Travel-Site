@@ -1,0 +1,33 @@
+.mydiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newdiv {
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--dark-blue);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--main-color);
+}

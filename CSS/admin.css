@@ -1,0 +1,13 @@
+.newa {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    animation: fadeIn .4s linear backwards .2s;
+}
+
+.newa:hover {
+    background: var(--main-color);
+}
